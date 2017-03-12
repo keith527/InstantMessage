@@ -17,9 +17,10 @@ const initState = {
 export default function movieTop250Reducer(state=initState, action) {
     switch (action.type){
         case types.MOVIE_TOP250_REQUEST:
-
+            const isFirstLoad = (action.params.start===0);
             return Object.assign({}, state, {
-                isLoading: true
+                isLoading: true,
+                movieList:isFirstLoad?[]:state.movieList
 
             });
         case types.MOVIE_TOP250_RECEIVE_SUCCESS:
