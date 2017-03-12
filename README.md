@@ -6,8 +6,11 @@
 ## Screenshot 
 
 ![movie_nav](./Screenshot/movie_nav.png)
+
 ![movie_top](./Screenshot/movie_top.png)
+
 ![search_index](./Screenshot/search_index.png)
+
 ![search_music](./Screenshot/search_music.png)
 
 ##Usage
