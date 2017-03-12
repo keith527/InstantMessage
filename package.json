@@ -1,0 +1,36 @@
+{
+	"name": "InstantMessage",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "~15.4.1",
+		"react-native": "0.42.0",
+		"react-native-button":"^1.8.2",
+    "react-native-router-flux": "^3.38.0",
+    "react-native-scrollable-tab-view": "^0.7.2",
+    "react-native-search-bar": "^3.0.0",
+    "react-native-search-box": "0.0.3",
+    "react-native-star-rating": "^1.0.7",
+    "react-native-storage": "^0.1.5",
+    "react-native-vector-icons": "^4.0.0",
+    "react-navigation": "^1.0.0-beta.6",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.2",
+    "redux-saga": "^0.14.3",
+    "redux-thunk": "^2.2.0"
+	},
+	"devDependencies": {
+		"babel-jest": "19.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"jest": "19.0.2",
+		"react-test-renderer": "~15.4.1"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
