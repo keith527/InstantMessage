@@ -1,6 +1,6 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-08 11:34:58
+* Created by Xiaocheng Zuo on 2017-03-08 11:34:58
 * @flow
 */
 import React, {Component,PropTypes} from 'react';
@@ -8,17 +8,12 @@ import {StyleSheet, View, ScrollView, Text} from 'react-native';
 import TopMovieItem from '../scrollviewItem/MovieTopCatItem';
 import {Actions} from 'react-native-router-flux';
 import {WINDOW_DIMEN} from '../../constants/device-info';
-import * as types from '../../constants/action-types';
-
-let movieTopAction;
-let movieTop;
 
 export default class ScrollTopMovie extends Component{
 
     构造
       constructor(props) {
         super(props);
-
       }
 
       static propTypes={

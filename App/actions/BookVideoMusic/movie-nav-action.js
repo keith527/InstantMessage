@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-07 10:54:48
+* Description: 电影导航页Action Creator
+* Created by Xiaocheng Zuo on 2017-03-07 10:54:48
 * @flow
 */
 

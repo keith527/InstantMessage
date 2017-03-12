@@ -1,6 +1,6 @@
 /**
 * Description:引导页
-* Created by Yacheng Lee on 2017-03-05 18:55:52
+* Created by Xiaocheng Zuo on 2017-03-05 18:55:52
 * @flow
 */
 

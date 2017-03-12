@@ -1,6 +1,6 @@
 /**
-* Description: App入口
-* Created by Yacheng Lee on 2017-03-05 14:33:34
+* Description: 入口
+* Created by Xiaocheng Zuo on 2017-03-04 18:00:20
 * @flow
 */
 import React, {Component} from 'react';

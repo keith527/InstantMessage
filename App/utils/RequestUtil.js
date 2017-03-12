@@ -1,11 +1,9 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-05 18:24:45
+* Created by Xiaocheng Zuo on 2017-03-07 15:01:07
 * @flow
 */
 
-
-//const HOST = 'http://apis.baidu.com/';
 const HOST = '';
 export const request = (url,params,  method,body) => {
     let isOk;
@@ -23,7 +21,7 @@ export const request = (url,params,  method,body) => {
         fetch(HOST + url, {
             method,
             headers: {
-              //  apikey: '19ffb04654b0f50d003e0a58abf2c50b'
+              //  apikey: ''
             },
             body
         })

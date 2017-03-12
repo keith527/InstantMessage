@@ -1,6 +1,6 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-08 16:32:40
+* Created by Xiaocheng Zuo  on 2017-03-08 16:32:40
 * @flow
 */
 
@@ -103,20 +103,20 @@ class MovieTop extends Component{
 
 
 const mapStateToProps = (state)=>{
-    const {bookVideoMusic}  = state;// => var bookVideoMusic = state.bookVideoMusic;调用rootReducer中声明的reducer
+    const {bookVideoMusic}  = state;
     const movieTop = bookVideoMusic.movieTop;
 
     return {
-        movieTop:movieTop//1.bookVideoMusic:bookVideoMusic，当key和value相同时，可省略key ==> es6（即可通过this.props.bookVideoMusic获取state中的状态值）
+        movieTop:movieTop
     };
 };
 
 const mapDispatchToProps = (dispatch) => {
-    //bindActionCreators:把 action creators 转成拥有同名 keys 的对象
+
      const movieTop250Action = bindActionCreators(requestMovieTop250, dispatch);
 
     return {
-        movieTop250Action:movieTop250Action,//2.注入action,即可调用action中声明的方法,（即可通过this.props.main获取,用于调用main中的方法）
+        movieTop250Action:movieTop250Action,
 
     };
 };

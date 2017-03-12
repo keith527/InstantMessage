@@ -1,6 +1,6 @@
 /**
 * Description: 主reducer
-* Created by Yacheng Lee on 2017-03-05 15:36:25
+* Created by Xiaocheng Zuo on 2017-03-05 15:36:25
 * @flow
 */
 

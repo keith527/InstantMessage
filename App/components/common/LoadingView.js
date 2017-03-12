@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-05 18:16:44
+* Description:组件-加载中
+* Created by Xiaocheng Zuo on 2017-03-05 18:16:44
 * @flow
 */
 

@@ -1,6 +1,6 @@
 /**
 * Description:  整个App的容器组件
-* Created by Yacheng Lee on 2017-03-05 13:42:48
+* Created by Xiaocheng Zuo on 2017-03-05 13:42:48
 * @flow
 */
 import React, {Component} from 'react';

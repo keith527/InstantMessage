@@ -1,4 +1,8 @@
-
+/**
+* Description:
+* Created by Xiaocheng Zuo on 2017-03-10 18:08:43
+* @flow
+*/
 import * as types from '../../constants/action-types';
 import {combineReducers} from 'redux';
 

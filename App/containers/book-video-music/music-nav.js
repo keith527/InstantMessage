@@ -1,6 +1,6 @@
 /**
 * Description:书影音下的 NavTab -- 音乐
-* Created by Yacheng Lee on 2017-03-07 09:14:38
+* Created by Xiaocheng Zuo  on 2017-03-07 09:14:38
 * @flow
 */
 import React, {Component} from 'react';

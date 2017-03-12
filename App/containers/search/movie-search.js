@@ -1,6 +1,6 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-10 22:24:51
+* Created by Xiaocheng Zuo on 2017-03-10 22:24:51
 * @flow
 */
 
@@ -192,20 +192,20 @@ class MovieSearch extends Component{
 }
 
 const mapStateToProps = (state)=>{
-    const {search}  = state;// => var bookVideoMusic = state.bookVideoMusic;调用rootReducer中声明的reducer
+    const {search}  = state;// => var search = state.search;调用rootReducer中声明的reducer
     const movieSearchData = search.movie_search;
 
     return {
-        movieSearchData:movieSearchData//1.bookVideoMusic:bookVideoMusic，当key和value相同时，可省略key ==> es6（即可通过this.props.bookVideoMusic获取state中的状态值）
+        movieSearchData:movieSearchData
     };
 };
 
 const mapDispatchToProps = (dispatch) => {
     //bindActionCreators:把 action creators 转成拥有同名 keys 的对象
-
     const movieSearchAction = bindActionCreators(requestMovieSearch, dispatch);
     return {
-        movieSearchAction:movieSearchAction,//2.注入action,即可调用action中声明的方法,（即可通过this.props.main获取,用于调用main中的方法）
+        //注入action,即可调用action中声明的方法,（即可通过this.props获取）
+        movieSearchAction:movieSearchAction,
 
     };
 };

@@ -1,6 +1,6 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-10 13:21:42
+* Created by Xiaocheng Zuo on 2017-03-10 13:21:42
 * @flow
 */
 import React, {Component} from 'react';
@@ -250,11 +250,11 @@ const styles = StyleSheet.create({
 });
 
 const mapStateToProps = (state)=>{
-    const {search}  = state;// => var bookVideoMusic = state.bookVideoMusic;调用rootReducer中声明的reducer
+    const {search}  = state;// => var search = state.search;调用rootReducer中声明的reducer
     const SearchIndex = search.search_index;
 
     return {
-        SearchIndex:SearchIndex//1.bookVideoMusic:bookVideoMusic，当key和value相同时，可省略key ==> es6（即可通过this.props.bookVideoMusic获取state中的状态值）
+        SearchIndex:SearchIndex
     };
 };
 
@@ -263,7 +263,8 @@ const mapDispatchToProps = (dispatch) => {
     const SearchIndexAction = bindActionCreators(requestSearchIndex, dispatch);
 
     return {
-        SearchIndexAction:SearchIndexAction,//2.注入action,即可调用action中声明的方法,（即可通过this.props.main获取,用于调用main中的方法）
+        //注入action,即可调用action中声明的方法,（即可通过this.props获取）
+        SearchIndexAction:SearchIndexAction,
 
     };
 };

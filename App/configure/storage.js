@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-10 13:26:28
+* Description: 本地存储
+* Created by Xiaocheng Zuo on 2017-03-10 13:26:28
 * @flow
 */
 

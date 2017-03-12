@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-10 09:37:02
+* Description: 音乐搜索saga
+* Created by Xiaocheng Zuo on 2017-03-10 09:37:02
 * @flow
 */
 import {SearchApi} from '../constants/urls';

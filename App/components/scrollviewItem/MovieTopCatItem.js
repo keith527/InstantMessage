@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-08 11:54:38
+* Description: 电影排行索引 Item
+* Created by Xiaocheng Zuo on 2017-03-08 11:54:38
 * @flow
 */
 import React, {Component, PropTypes} from 'react';

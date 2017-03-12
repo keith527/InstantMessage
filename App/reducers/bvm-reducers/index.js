@@ -1,4 +1,8 @@
-
+/**
+* Description:
+* Created by Xiaocheng Zuo on 2017-03-09 18:08:27
+* @flow
+*/
 import {combineReducers} from 'redux';
 
 import book from './book-reducer';

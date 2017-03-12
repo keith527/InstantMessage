@@ -1,9 +1,8 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-05 17:40:33
+* Created by Xiaocheng Zuo on 2017-03-05 18:00:49
 * @flow
 */
-
 
 import {
     Alert,

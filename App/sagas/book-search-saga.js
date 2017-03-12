@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-10 09:37:02
+* Description:图书搜索-saga
+* Created by Xiaocheng Zuo on 2017-03-10 09:37:02
 * @flow
 */
 import {SearchApi} from '../constants/urls';

@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-07 14:47:55
+* Description: 上映电影列表
+* Created by Xiaocheng Zuo on 2017-03-07 14:47:55
 * @flow
 */
 import React, {Component, PropTypes} from 'react';
@@ -49,17 +49,10 @@ export default class LvStar extends Component{
 
     }
 
-    /**
-     *  滑动监听
-     */
-    _onScroll() {
-        //  if (!isLoadMore) isLoadMore = true;
-    }
 
     _renderFooter(){
         return(
             //TODO: load more
-
             <View></View>
         );
     }
@@ -87,7 +80,6 @@ export default class LvStar extends Component{
                     onEndReachedThreshold={10}
                     enableEmptySections={true}
                     renderRow={this._renderRow.bind(this)}
-                    onScroll={this._onScroll.bind(this)}
                     renderFooter={this._renderFooter.bind(this)}
 
                 />

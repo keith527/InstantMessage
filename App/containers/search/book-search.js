@@ -1,6 +1,6 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-10 10:21:36
+* Created by Xiaocheng Zuo on 2017-03-10 10:21:36
 * @flow
 */
 import React, {Component} from 'react';
@@ -182,11 +182,12 @@ class BookSearch extends Component{
     }
 }
 const mapStateToProps = (state)=>{
-    const {search}  = state;// => var bookVideoMusic = state.bookVideoMusic;调用rootReducer中声明的reducer
+    const {search}  = state;// => var search = state.search;调用rootReducer中声明的reducer
     const bookSearchData = search.book_search;
 
     return {
-        bookSearchData:bookSearchData//1.bookVideoMusic:bookVideoMusic，当key和value相同时，可省略key ==> es6（即可通过this.props.bookVideoMusic获取state中的状态值）
+
+        bookSearchData:bookSearchData
     };
 };
 
@@ -195,7 +196,8 @@ const mapDispatchToProps = (dispatch) => {
 
     const bookSearchAction = bindActionCreators(requestBookSearch, dispatch);
     return {
-        bookSearchAction:bookSearchAction,//2.注入action,即可调用action中声明的方法,（即可通过this.props.main获取,用于调用main中的方法）
+        //注入action,即可调用action中声明的方法,（即可通过this.props获取）
+        bookSearchAction:bookSearchAction,
 
     };
 };

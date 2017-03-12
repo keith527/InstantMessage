@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-10 15:29:55
+* Description: 主搜索saga
+* Created by Xiaocheng Zuo on 2017-03-10 15:29:55
 * @flow
 */
 import { put, take, call, fork } from 'redux-saga/effects';

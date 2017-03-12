@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-05 19:17:30
+* Description:组件-分页列表底部展示-"没有更多可加载"
+* Created by Xiaocheng Zuo on 2017-03-05 19:17:30
 * @flow
 */
 

@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-10 22:29:12
+* Description:电影搜索 saga
+* Created by Xiaocheng Zuo on 2017-03-10 22:29:12
 * @flow
 */
 import {SearchApi} from '../constants/urls';

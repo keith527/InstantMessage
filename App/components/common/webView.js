@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-08 11:09:10
+* Description: 详情展示
+* Created by Xiaocheng Zuo on 2017-03-08 11:09:10
 * @flow
 */
 import React, {Component} from 'react';

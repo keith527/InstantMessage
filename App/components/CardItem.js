@@ -1,6 +1,6 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-07 13:34:23
+* Created by Xiaocheng Zuo on 2017-03-07 13:34:23
 * @flow
 */
 import React, {Component,PropTypes} from 'react';

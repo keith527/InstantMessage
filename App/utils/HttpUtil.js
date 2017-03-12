@@ -3,7 +3,8 @@
  * url:请求地址
  * successCallback:成功回调
  * failCallback:失败回调
-* Created by Yacheng Lee on 2017-03-05 18:31:40
+ * Tips：暂时没用到
+* Created by Xiaocheng Zuo on 2017-03-05 18:31:40
 * @flow
 */
 

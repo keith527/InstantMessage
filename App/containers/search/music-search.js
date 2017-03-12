@@ -1,6 +1,6 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-10 22:53:27
+* Created by Xiaocheng Zuo on 2017-03-10 22:53:27
 * @flow
 */
 
@@ -189,11 +189,13 @@ class MusicSearch extends Component{
     }
 }
 const mapStateToProps = (state)=>{
-    const {search}  = state;// => var bookVideoMusic = state.bookVideoMusic;调用rootReducer中声明的reducer
+    const {search}  = state;// => var search = state.search;调用rootReducer中声明的reducer
     const musicSearchData = search.music_search;
 
     return {
-        musicSearchData:musicSearchData//1.bookVideoMusic:bookVideoMusic，当key和value相同时，可省略key ==> es6（即可通过this.props.bookVideoMusic获取state中的状态值）
+
+        musicSearchData:musicSearchData
+
     };
 };
 
@@ -202,7 +204,8 @@ const mapDispatchToProps = (dispatch) => {
 
     const musicSearchAction = bindActionCreators(requestMusicSearch, dispatch);
     return {
-        musicSearchAction:musicSearchAction,//2.注入action,即可调用action中声明的方法,（即可通过this.props.main获取,用于调用main中的方法）
+        //注入action,即可调用action中声明的方法,（即可通过this.props获取）
+        musicSearchAction:musicSearchAction,
 
     };
 };

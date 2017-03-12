@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-08 09:55:32
+* Description:电影主页saga
+* Created by Xiaocheng Zuo on 2017-03-08 09:55:32
 * @flow
 */
 

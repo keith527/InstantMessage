@@ -1,6 +1,6 @@
 /**
 * Description:
-* Created by Yacheng Lee on 2017-03-10 09:08:54
+* Created by Xiaocheng Zuo on 2017-03-10 09:08:54
 * @flow
 */
 import * as types from '../../constants/action-types';

@@ -1,7 +1,7 @@
 
 /**
 * Description:在使用公共 star_listview 组件时需要传递一个标示来判断传入的是什么类型数据
-* Created by Yacheng Lee on 2017-03-07 16:29:52
+* Created by Xiaocheng Zuo on 2017-03-07 16:29:52
 * @flow
 */
 

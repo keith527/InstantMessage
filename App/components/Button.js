@@ -1,6 +1,6 @@
 /**
 * Description: Button 组件
-* Created by Yacheng Lee on 2017-03-05 17:38:34
+* Created by Xiaocheng Zuo on 2017-03-05 17:38:34
 * @flow
 */
 

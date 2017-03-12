@@ -1,3 +1,9 @@
+/**
+* Description:
+* Created by Xiaocheng Zuo on 2017-03-12 18:10:15
+* @flow
+*/
+
 import React, {Component} from 'react';
 import {StyleSheet, View,ScrollView, Text} from 'react-native';
 import { connect } from 'react-redux';

@@ -1,6 +1,6 @@
 /**
-* Description:
-* Created by Yacheng Lee on 2017-03-08 16:51:18
+* Description: 豆瓣top250
+* Created by Xiaocheng Zuo on 2017-03-08 16:51:18
 * @flow
 */
 
