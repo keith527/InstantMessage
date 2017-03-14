@@ -14,21 +14,21 @@
 ##Usage
 >- Step 1:`clone`
 >
- `$ git clone git@github.com:keith527/InstantMessage.git`
-> - Step 2:`cd`
-> 
- `$ cd InstantMessage`
-> - Step 3:`install`
-> 
- `$ npm install`and
- `$ react-native link` 
- 
+> `$ git clone git@github.com:keith527/InstantMessage.git`
+>- Step 2:`cd`
+>
+> `$ cd InstantMessage`
+>- Step 3:`install`
+>
+> `$ npm install`and
+> `$ react-native link` 
+
 > Tips: Because I used some third-party library for My Project, so, if you meet some problem about module doesn't work ,please check the module installed correctly. Especially the module `react-native-vector-icons`,You may do something according to [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-> 
-> 
+>
+>
 > - Step 4:`run`
-> 
- `$ react-native run-ios`or`$ react-native run-android`
+>
+>  `$ react-native run-ios`or`$ react-native run-android`
 
 ##TODO
 
@@ -48,3 +48,4 @@ Apache License 2.0
 
 
 
+##Develop

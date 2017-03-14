@@ -10,6 +10,7 @@ import App from './containers/App';
 import configureStore from './configure/store';
 import rootSaga from './sagas';
 import './configure/storage';//全局存储
+import CodePush from 'react-native-code-push';
 
 const store = configureStore();
 
@@ -25,6 +26,19 @@ store.runSaga(rootSaga);
 // });
 
 export default class Root extends Component{
+
+    componentDidMount() {
+
+        CodePush.sync({
+            updateDialog: {
+                optionalIgnoreButtonLabel: '稍后',
+                optionalInstallButtonLabel: '后台更新',
+                optionalUpdateMessage: '有新版本了，是否更新？',
+                title: '更新提示'
+            }
+        });
+    }
+
     render(){
         return(
             <Provider store={store}>

@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">5a4qibbuww2JSNg4xBHAvGipNSnn4JSm211sM</string>
     <string name="app_name">InstantMessage</string>
 </resources>
